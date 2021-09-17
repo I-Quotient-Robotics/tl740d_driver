@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="tl740d_driver" type="tl740d_driver_node" name="tl740d_driver_node" output="screen" >
+    <param name="baudrate" type="int" value="115200" />
+    <param name="port" type="string" value="/dev/tl740d" />
+    <param name="looprate" type="int" value="100" />
+  </node>
+</launch>
